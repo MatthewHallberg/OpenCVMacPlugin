@@ -8,29 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		222E9ED122C4AEF60096B552 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222E9ED022C4AEF50096B552 /* OpenGL.framework */; };
-		225EBC9122CF27720013CA2C /* gl3w in Sources */ = {isa = PBXBuildFile; fileRef = 22B62D5322C6A96500A4FF0C /* gl3w */; };
-		225EBC9222CF27720013CA2C /* PlatformBase.h in Sources */ = {isa = PBXBuildFile; fileRef = 22B62D5422C6A96500A4FF0C /* PlatformBase.h */; };
-		225EBC9322CF27720013CA2C /* RenderAPI.h in Sources */ = {isa = PBXBuildFile; fileRef = 22B62D4F22C6A96500A4FF0C /* RenderAPI.h */; };
-		225EBC9422CF27720013CA2C /* RenderingPlugin.def in Sources */ = {isa = PBXBuildFile; fileRef = 22B62D4C22C6A96400A4FF0C /* RenderingPlugin.def */; };
-		225EBC9522CF27720013CA2C /* Unity in Sources */ = {isa = PBXBuildFile; fileRef = 22B62D5122C6A96500A4FF0C /* Unity */; };
-		225EBC9622CF278E0013CA2C /* PlatformBase.h in Resources */ = {isa = PBXBuildFile; fileRef = 22B62D5422C6A96500A4FF0C /* PlatformBase.h */; };
-		225EBC9722CF278E0013CA2C /* RenderAPI_Metal.mm in Resources */ = {isa = PBXBuildFile; fileRef = 22B62D4E22C6A96500A4FF0C /* RenderAPI_Metal.mm */; };
-		225EBC9822CF278E0013CA2C /* RenderAPI_OpenGLCoreES.cpp in Resources */ = {isa = PBXBuildFile; fileRef = 22B62D5022C6A96500A4FF0C /* RenderAPI_OpenGLCoreES.cpp */; };
-		225EBC9922CF278E0013CA2C /* RenderAPI.cpp in Resources */ = {isa = PBXBuildFile; fileRef = 22B62D4B22C6A96400A4FF0C /* RenderAPI.cpp */; };
-		225EBC9A22CF278E0013CA2C /* RenderAPI.h in Resources */ = {isa = PBXBuildFile; fileRef = 22B62D4F22C6A96500A4FF0C /* RenderAPI.h */; };
-		225EBC9B22CF278E0013CA2C /* OpenCVPlugin.cpp in Resources */ = {isa = PBXBuildFile; fileRef = 2282672222B23DE1002466C1 /* OpenCVPlugin.cpp */; };
-		225EBC9C22CF278E0013CA2C /* OpenCVPlugin.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 229FC2AC22ADC50A0011596A /* OpenCVPlugin.hpp */; };
-		225EBC9D22CF278E0013CA2C /* RenderingPlugin.cpp in Resources */ = {isa = PBXBuildFile; fileRef = 22B62D5222C6A96500A4FF0C /* RenderingPlugin.cpp */; };
-		225EBC9E22CF278E0013CA2C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225FAE6F22B0F6A500BB1B60 /* Info.plist */; };
-		227BF27022B0E65A00A1045F /* OpenCVPlugin.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 229FC2AC22ADC50A0011596A /* OpenCVPlugin.hpp */; };
-		2282672322B23DE1002466C1 /* OpenCVPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2282672222B23DE1002466C1 /* OpenCVPlugin.cpp */; };
-		22B62D5722C6A96500A4FF0C /* RenderAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B62D4B22C6A96400A4FF0C /* RenderAPI.cpp */; };
-		22B62D5822C6A96500A4FF0C /* RenderingPlugin.def in Resources */ = {isa = PBXBuildFile; fileRef = 22B62D4C22C6A96400A4FF0C /* RenderingPlugin.def */; };
-		22B62D5A22C6A96500A4FF0C /* RenderAPI_Metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22B62D4E22C6A96500A4FF0C /* RenderAPI_Metal.mm */; };
-		22B62D5B22C6A96500A4FF0C /* RenderAPI_OpenGLCoreES.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B62D5022C6A96500A4FF0C /* RenderAPI_OpenGLCoreES.cpp */; };
-		22B62D5C22C6A96500A4FF0C /* Unity in Resources */ = {isa = PBXBuildFile; fileRef = 22B62D5122C6A96500A4FF0C /* Unity */; };
-		22B62D5D22C6A96500A4FF0C /* RenderingPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B62D5222C6A96500A4FF0C /* RenderingPlugin.cpp */; };
-		22B62D5E22C6A96500A4FF0C /* gl3w in Resources */ = {isa = PBXBuildFile; fileRef = 22B62D5322C6A96500A4FF0C /* gl3w */; };
+		223B927222EEC98F00949588 /* OpenCVPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2282672222B23DE1002466C1 /* OpenCVPlugin.cpp */; };
+		223B927322EEC98F00949588 /* OpenCVPlugin.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 229FC2AC22ADC50A0011596A /* OpenCVPlugin.hpp */; };
+		223B928022EECA5300949588 /* RenderingPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 223B927722EECA5200949588 /* RenderingPlugin.cpp */; };
+		223B928122EECA5300949588 /* RenderingPlugin.def in Resources */ = {isa = PBXBuildFile; fileRef = 223B927822EECA5200949588 /* RenderingPlugin.def */; };
+		223B928222EECA5300949588 /* RenderAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 223B927922EECA5200949588 /* RenderAPI.cpp */; };
+		223B928322EECA5300949588 /* Unity in Resources */ = {isa = PBXBuildFile; fileRef = 223B927A22EECA5300949588 /* Unity */; };
+		223B928422EECA5300949588 /* RenderAPI_Metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 223B927B22EECA5300949588 /* RenderAPI_Metal.mm */; };
+		223B928522EECA5300949588 /* RenderAPI_OpenGLCoreES.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 223B927C22EECA5300949588 /* RenderAPI_OpenGLCoreES.cpp */; };
+		223B928622EECA5300949588 /* gl3w in Resources */ = {isa = PBXBuildFile; fileRef = 223B927E22EECA5300949588 /* gl3w */; };
+		223B928722EECAA100949588 /* gl3w in Sources */ = {isa = PBXBuildFile; fileRef = 223B927E22EECA5300949588 /* gl3w */; };
+		223B928822EECAA100949588 /* PlatformBase.h in Sources */ = {isa = PBXBuildFile; fileRef = 223B927F22EECA5300949588 /* PlatformBase.h */; };
+		223B928922EECAA100949588 /* RenderAPI.h in Sources */ = {isa = PBXBuildFile; fileRef = 223B927D22EECA5300949588 /* RenderAPI.h */; };
+		223B928A22EECAA100949588 /* RenderingPlugin.def in Sources */ = {isa = PBXBuildFile; fileRef = 223B927822EECA5200949588 /* RenderingPlugin.def */; };
+		223B928B22EECAA100949588 /* Unity in Sources */ = {isa = PBXBuildFile; fileRef = 223B927A22EECA5300949588 /* Unity */; };
+		223B928C22EECB7000949588 /* PlatformBase.h in Resources */ = {isa = PBXBuildFile; fileRef = 223B927F22EECA5300949588 /* PlatformBase.h */; };
+		223B928D22EECB7000949588 /* RenderAPI_Metal.mm in Resources */ = {isa = PBXBuildFile; fileRef = 223B927B22EECA5300949588 /* RenderAPI_Metal.mm */; };
+		223B928E22EECB7000949588 /* RenderAPI_OpenGLCoreES.cpp in Resources */ = {isa = PBXBuildFile; fileRef = 223B927C22EECA5300949588 /* RenderAPI_OpenGLCoreES.cpp */; };
+		223B928F22EECB7000949588 /* RenderAPI.cpp in Resources */ = {isa = PBXBuildFile; fileRef = 223B927922EECA5200949588 /* RenderAPI.cpp */; };
+		223B929022EECB7000949588 /* RenderAPI.h in Resources */ = {isa = PBXBuildFile; fileRef = 223B927D22EECA5300949588 /* RenderAPI.h */; };
+		223B929122EECB7000949588 /* RenderingPlugin.cpp in Resources */ = {isa = PBXBuildFile; fileRef = 223B927722EECA5200949588 /* RenderingPlugin.cpp */; };
+		223B929222EECB7000949588 /* OpenCVPlugin.cpp in Resources */ = {isa = PBXBuildFile; fileRef = 2282672222B23DE1002466C1 /* OpenCVPlugin.cpp */; };
+		223B929322EECB7000949588 /* OpenCVPlugin.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 229FC2AC22ADC50A0011596A /* OpenCVPlugin.hpp */; };
+		223B929522EECC7000949588 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B929422EECC7000949588 /* AVFoundation.framework */; };
+		223B929722EECCF900949588 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B929622EECCF900949588 /* CoreGraphics.framework */; };
+		223B929922EECD1F00949588 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B929822EECD1E00949588 /* CoreMedia.framework */; };
+		223B929B22EECD5400949588 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B929A22EECD5400949588 /* CoreVideo.framework */; };
 		22B6C13F22B969DD00558245 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B6C13E22B969DD00558245 /* opencv2.framework */; };
 		22B6C14222B96ABA00558245 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B6C14122B96ABA00558245 /* Accelerate.framework */; };
 		22B6C14422B96AF500558245 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B6C14322B96AF500558245 /* OpenCL.framework */; };
@@ -38,19 +41,23 @@
 
 /* Begin PBXFileReference section */
 		222E9ED022C4AEF50096B552 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		223B927722EECA5200949588 /* RenderingPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderingPlugin.cpp; sourceTree = "<group>"; };
+		223B927822EECA5200949588 /* RenderingPlugin.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RenderingPlugin.def; sourceTree = "<group>"; };
+		223B927922EECA5200949588 /* RenderAPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderAPI.cpp; sourceTree = "<group>"; };
+		223B927A22EECA5300949588 /* Unity */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Unity; sourceTree = "<group>"; };
+		223B927B22EECA5300949588 /* RenderAPI_Metal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RenderAPI_Metal.mm; sourceTree = "<group>"; };
+		223B927C22EECA5300949588 /* RenderAPI_OpenGLCoreES.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderAPI_OpenGLCoreES.cpp; sourceTree = "<group>"; };
+		223B927D22EECA5300949588 /* RenderAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderAPI.h; sourceTree = "<group>"; };
+		223B927E22EECA5300949588 /* gl3w */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gl3w; sourceTree = "<group>"; };
+		223B927F22EECA5300949588 /* PlatformBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformBase.h; sourceTree = "<group>"; };
+		223B929422EECC7000949588 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		223B929622EECCF900949588 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		223B929822EECD1E00949588 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		223B929A22EECD5400949588 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		225FAE6F22B0F6A500BB1B60 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2282672222B23DE1002466C1 /* OpenCVPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenCVPlugin.cpp; sourceTree = "<group>"; };
 		229FC2A222ADC4C20011596A /* macPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		229FC2AC22ADC50A0011596A /* OpenCVPlugin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OpenCVPlugin.hpp; sourceTree = "<group>"; };
-		22B62D4B22C6A96400A4FF0C /* RenderAPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RenderAPI.cpp; path = ../../Desktop/UnityNativeGraphics/NativeRenderingPlugin/PluginSource/source/RenderAPI.cpp; sourceTree = "<group>"; };
-		22B62D4C22C6A96400A4FF0C /* RenderingPlugin.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RenderingPlugin.def; path = ../../Desktop/UnityNativeGraphics/NativeRenderingPlugin/PluginSource/source/RenderingPlugin.def; sourceTree = "<group>"; };
-		22B62D4E22C6A96500A4FF0C /* RenderAPI_Metal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RenderAPI_Metal.mm; path = ../../Desktop/UnityNativeGraphics/NativeRenderingPlugin/PluginSource/source/RenderAPI_Metal.mm; sourceTree = "<group>"; };
-		22B62D4F22C6A96500A4FF0C /* RenderAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenderAPI.h; path = ../../Desktop/UnityNativeGraphics/NativeRenderingPlugin/PluginSource/source/RenderAPI.h; sourceTree = "<group>"; };
-		22B62D5022C6A96500A4FF0C /* RenderAPI_OpenGLCoreES.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RenderAPI_OpenGLCoreES.cpp; path = ../../Desktop/UnityNativeGraphics/NativeRenderingPlugin/PluginSource/source/RenderAPI_OpenGLCoreES.cpp; sourceTree = "<group>"; };
-		22B62D5122C6A96500A4FF0C /* Unity */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Unity; path = ../../Desktop/UnityNativeGraphics/NativeRenderingPlugin/PluginSource/source/Unity; sourceTree = "<group>"; };
-		22B62D5222C6A96500A4FF0C /* RenderingPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RenderingPlugin.cpp; path = ../../Desktop/UnityNativeGraphics/NativeRenderingPlugin/PluginSource/source/RenderingPlugin.cpp; sourceTree = "<group>"; };
-		22B62D5322C6A96500A4FF0C /* gl3w */ = {isa = PBXFileReference; lastKnownFileType = folder; name = gl3w; path = ../../Desktop/UnityNativeGraphics/NativeRenderingPlugin/PluginSource/source/gl3w; sourceTree = "<group>"; };
-		22B62D5422C6A96500A4FF0C /* PlatformBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlatformBase.h; path = ../../Desktop/UnityNativeGraphics/NativeRenderingPlugin/PluginSource/source/PlatformBase.h; sourceTree = "<group>"; };
 		22B6C13E22B969DD00558245 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		22B6C14122B96ABA00558245 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		22B6C14322B96AF500558245 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
@@ -61,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223B929B22EECD5400949588 /* CoreVideo.framework in Frameworks */,
+				223B929922EECD1F00949588 /* CoreMedia.framework in Frameworks */,
+				223B929722EECCF900949588 /* CoreGraphics.framework in Frameworks */,
+				223B929522EECC7000949588 /* AVFoundation.framework in Frameworks */,
 				222E9ED122C4AEF60096B552 /* OpenGL.framework in Frameworks */,
 				22B6C14422B96AF500558245 /* OpenCL.framework in Frameworks */,
 				22B6C14222B96ABA00558245 /* Accelerate.framework in Frameworks */,
@@ -92,17 +103,17 @@
 		229FC2A422ADC4C20011596A /* macPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				22B62D5322C6A96500A4FF0C /* gl3w */,
-				22B62D5422C6A96500A4FF0C /* PlatformBase.h */,
-				22B62D4E22C6A96500A4FF0C /* RenderAPI_Metal.mm */,
-				22B62D5022C6A96500A4FF0C /* RenderAPI_OpenGLCoreES.cpp */,
-				22B62D4B22C6A96400A4FF0C /* RenderAPI.cpp */,
-				22B62D4F22C6A96500A4FF0C /* RenderAPI.h */,
+				223B927E22EECA5300949588 /* gl3w */,
+				223B927F22EECA5300949588 /* PlatformBase.h */,
+				223B927B22EECA5300949588 /* RenderAPI_Metal.mm */,
+				223B927C22EECA5300949588 /* RenderAPI_OpenGLCoreES.cpp */,
+				223B927922EECA5200949588 /* RenderAPI.cpp */,
+				223B927D22EECA5300949588 /* RenderAPI.h */,
+				223B927722EECA5200949588 /* RenderingPlugin.cpp */,
+				223B927822EECA5200949588 /* RenderingPlugin.def */,
+				223B927A22EECA5300949588 /* Unity */,
 				2282672222B23DE1002466C1 /* OpenCVPlugin.cpp */,
 				229FC2AC22ADC50A0011596A /* OpenCVPlugin.hpp */,
-				22B62D5222C6A96500A4FF0C /* RenderingPlugin.cpp */,
-				22B62D4C22C6A96400A4FF0C /* RenderingPlugin.def */,
-				22B62D5122C6A96500A4FF0C /* Unity */,
 				225FAE6F22B0F6A500BB1B60 /* Info.plist */,
 			);
 			path = macPlugin;
@@ -111,6 +122,10 @@
 		22B6C14022B96ABA00558245 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				223B929A22EECD5400949588 /* CoreVideo.framework */,
+				223B929822EECD1E00949588 /* CoreMedia.framework */,
+				223B929622EECCF900949588 /* CoreGraphics.framework */,
+				223B929422EECC7000949588 /* AVFoundation.framework */,
 				222E9ED022C4AEF50096B552 /* OpenGL.framework */,
 				22B6C14322B96AF500558245 /* OpenCL.framework */,
 				22B6C14122B96ABA00558245 /* Accelerate.framework */,
@@ -174,18 +189,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225EBC9622CF278E0013CA2C /* PlatformBase.h in Resources */,
-				225EBC9722CF278E0013CA2C /* RenderAPI_Metal.mm in Resources */,
-				225EBC9822CF278E0013CA2C /* RenderAPI_OpenGLCoreES.cpp in Resources */,
-				225EBC9922CF278E0013CA2C /* RenderAPI.cpp in Resources */,
-				225EBC9A22CF278E0013CA2C /* RenderAPI.h in Resources */,
-				225EBC9B22CF278E0013CA2C /* OpenCVPlugin.cpp in Resources */,
-				225EBC9C22CF278E0013CA2C /* OpenCVPlugin.hpp in Resources */,
-				225EBC9D22CF278E0013CA2C /* RenderingPlugin.cpp in Resources */,
-				225EBC9E22CF278E0013CA2C /* Info.plist in Resources */,
-				22B62D5C22C6A96500A4FF0C /* Unity in Resources */,
-				22B62D5822C6A96500A4FF0C /* RenderingPlugin.def in Resources */,
-				22B62D5E22C6A96500A4FF0C /* gl3w in Resources */,
+				223B928C22EECB7000949588 /* PlatformBase.h in Resources */,
+				223B928D22EECB7000949588 /* RenderAPI_Metal.mm in Resources */,
+				223B928E22EECB7000949588 /* RenderAPI_OpenGLCoreES.cpp in Resources */,
+				223B928F22EECB7000949588 /* RenderAPI.cpp in Resources */,
+				223B929022EECB7000949588 /* RenderAPI.h in Resources */,
+				223B929122EECB7000949588 /* RenderingPlugin.cpp in Resources */,
+				223B929222EECB7000949588 /* OpenCVPlugin.cpp in Resources */,
+				223B929322EECB7000949588 /* OpenCVPlugin.hpp in Resources */,
+				223B928322EECA5300949588 /* Unity in Resources */,
+				223B928122EECA5300949588 /* RenderingPlugin.def in Resources */,
+				223B928622EECA5300949588 /* gl3w in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,17 +210,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225EBC9122CF27720013CA2C /* gl3w in Sources */,
-				225EBC9222CF27720013CA2C /* PlatformBase.h in Sources */,
-				225EBC9322CF27720013CA2C /* RenderAPI.h in Sources */,
-				225EBC9422CF27720013CA2C /* RenderingPlugin.def in Sources */,
-				225EBC9522CF27720013CA2C /* Unity in Sources */,
-				227BF27022B0E65A00A1045F /* OpenCVPlugin.hpp in Sources */,
-				2282672322B23DE1002466C1 /* OpenCVPlugin.cpp in Sources */,
-				22B62D5D22C6A96500A4FF0C /* RenderingPlugin.cpp in Sources */,
-				22B62D5722C6A96500A4FF0C /* RenderAPI.cpp in Sources */,
-				22B62D5B22C6A96500A4FF0C /* RenderAPI_OpenGLCoreES.cpp in Sources */,
-				22B62D5A22C6A96500A4FF0C /* RenderAPI_Metal.mm in Sources */,
+				223B928722EECAA100949588 /* gl3w in Sources */,
+				223B928822EECAA100949588 /* PlatformBase.h in Sources */,
+				223B928922EECAA100949588 /* RenderAPI.h in Sources */,
+				223B928A22EECAA100949588 /* RenderingPlugin.def in Sources */,
+				223B928B22EECAA100949588 /* Unity in Sources */,
+				223B928222EECA5300949588 /* RenderAPI.cpp in Sources */,
+				223B927222EEC98F00949588 /* OpenCVPlugin.cpp in Sources */,
+				223B928022EECA5300949588 /* RenderingPlugin.cpp in Sources */,
+				223B927322EEC98F00949588 /* OpenCVPlugin.hpp in Sources */,
+				223B928522EECA5300949588 /* RenderAPI_OpenGLCoreES.cpp in Sources */,
+				223B928422EECA5300949588 /* RenderAPI_Metal.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
